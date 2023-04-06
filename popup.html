@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Focused Tab</title>
+    <style>
+      body {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .input-container {
+        display: flex;
+        align-items: center;
+      }
+
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Focused Tab</h1>
+    <div class="input-container">
+      <label for="focus-mode">Toggle focus mode:</label>
+      <input type="checkbox" id="focus-mode" />
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
